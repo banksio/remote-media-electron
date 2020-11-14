@@ -1,0 +1,48 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Website Favicon-->
+    <link rel="icon" href="/branding/favicon.ico" type='image/x-icon' />
+
+    <!-- Title -->
+    <title>Remote Media</title>
+
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" -->
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link rel="stylesheet" href="stylesheets/bootstrap.css" integrity="Ol2O/HwcbwjWwkxzdkrX+MpASsYiZGQYRUIB+U2aZ28=" -->
+        crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" media="screen" href="stylesheets/receiverStyles.css" />
+
+    <!-- socket.io for communications -->
+    <!-- <script src="https://dev.remotemedia.ml/js/socket.io.js" integrity="sha256-bQmrZe4yPnQrLTY+1gYylfNMBuGfnT/HKsCGX+9Xuqo="></script> -->
+
+</head>
+
+<body>
+
+
+    <!--Testing-->
+    <!-- pointer-events:none; -->
+    <iframe id="player" src="https://dev.remotemedia.ml/"></iframe>
+    <div id="titlebar">
+        <div class="window-controls-container">
+            <div class="window-icon codicon codicon-chrome-minimize" id="minimizebutton"></div>
+            <div class="window-icon" id="restore"></div>
+            <div class="window-icon codicon codicon-chrome-close" id="closebutton"></div>
+        </div>
+    </div>
+    
+    <script src="js/receiver/electronUI.js"></script>
+</body>
+</html>
